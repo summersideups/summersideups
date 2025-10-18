@@ -1,0 +1,120 @@
+        body {
+            background-color: #F23333;
+            color: #FFEBEB;
+            font-family: Arial Rounded MT Bold;
+            opacity: 0;
+            animation: fadeIn 0.5s ease forwards;
+        }
+        @keyframes fadeIn {
+            to {
+                opacity: 1;
+            }
+        }
+        @font-face {
+            font-family: Arial Rounded MT Bold;
+            src: url(arialroundedmtbold.ttf);
+        }
+        body {
+            margin: 0%;
+            padding: 0%;
+        }
+        h1.welc {
+            text-align: center;
+            font-size: 250px;
+            font-weight: bold;
+            margin-top: 200px;
+            font-family: Arial;
+        }
+        p {
+            font-family: Arial Narrow;
+        }
+        h1.name {
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+            gap: 30px;
+            position:absolute;
+            right:600px;
+            font-size: 30px;
+            top: 1px;
+            margin-top:
+            200px;
+            font-family: Helvetica;
+            color: #FFD370;
+        }
+        .d {
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+            gap: 30px;
+        }
+        .txt {
+            font-size: 120px;
+            line-height: 1;
+            margin: 0%;
+            position: relative;
+            background-image: url("colorfulstar.gif");
+            background-repeat: no-repeat;
+            background-position-x: left;
+            background-position-y: 50px;
+            background-size: 600px;
+        }
+        .image-stack {
+            position: relative;
+            display: inline-block;
+        }
+        img.berrycat {
+            position: absolute;
+            right: 1130px;
+            width: 400px;
+            height: auto;
+            bottom: -50px;
+        }
+        img.bluetel {
+            position: absolute;
+            top: 50px;
+            right: 1100px;
+        }
+        .image-stack img.sonny {
+            width: 300px;
+            height: auto;
+            position: absolute;
+            bottom: -20px;
+        }
+        .image-stack img.koi {
+            position: absolute;
+            left: 30px;
+            width: 450px;
+            height: auto;
+            bottom: 380px;
+        }
+        nav.welc {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        .btn {
+            display: inline-block;
+            padding: 12px 24px;
+            background: #5E2121;
+            color: #FFEBEB;
+            text-decoration: none;
+            border-radius: 30px;
+            font-weight: bold;
+            text-align: center;
+            border-color: #FFD370;
+            border-width: 5px;
+            font-size: 25px;
+            border-style: solid;
+            transform: scale(1);
+            transition: all 0.5s ease;
+        }
+        .btn:hover {
+            background: #752B2B;
+            border-color: #ffe097;
+            transform: scale(1.2);
+            transition: all 0.5s ease;
+        }
+        .align {
+            text-align: center;
+        }
